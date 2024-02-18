@@ -1,0 +1,248 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"title": "Light",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Neutral 0",
+					"slug": "neutral-0",
+					"color": "#ffffff"
+				},
+				{
+					"name": "Neutral 50",
+					"slug": "neutral-50",
+					"color": "#f8fafc"
+				},
+				{
+					"name": "Neutral 100",
+					"slug": "neutral-100",
+					"color": "#f1f5f9"
+				},
+				{
+					"name": "Neutral 200",
+					"slug": "neutral-200",
+					"color": "#e2e8f0"
+				},
+				{
+					"name": "Neutral 300",
+					"slug": "neutral-300",
+					"color": "#cbd5e1"
+				},
+				{
+					"name": "Neutral 400",
+					"slug": "neutral-400",
+					"color": "#94a3b8"
+				},
+				{
+					"name": "Neutral 500",
+					"slug": "neutral-500",
+					"color": "#64748b"
+				},
+				{
+					"name": "Neutral 600",
+					"slug": "neutral-600",
+					"color": "#475569"
+				},
+				{
+					"name": "Neutral 700",
+					"slug": "neutral-700",
+					"color": "#334155"
+				},
+				{
+					"name": "Neutral 800",
+					"slug": "neutral-800",
+					"color": "#1e293b"
+				},
+				{
+					"name": "Neutral 900",
+					"slug": "neutral-900",
+					"color": "#0f172a"
+				},
+				{
+					"name": "Neutral 950",
+					"slug": "neutral-950",
+					"color": "#020617"
+				},
+				{
+					"name": "Primary 100",
+					"slug": "primary-100",
+					"color": "#e0e7ff"
+				},
+				{
+					"name": "Primary 300",
+					"slug": "primary-300",
+					"color": "#a5b4fc"
+				},
+				{
+					"name": "Primary 500",
+					"slug": "primary-500",
+					"color": "#6366f1"
+				},
+				{
+					"name": "Primary 600",
+					"slug": "primary-600",
+					"color": "#4f46e5"
+				},
+				{
+					"name": "Primary 700",
+					"slug": "primary-700",
+					"color": "#4338ca"
+				},
+				{
+					"name": "Primary 900",
+					"slug": "primary-900",
+					"color": "#1e1b4b"
+				},
+				{
+					"name": "Accent 100",
+					"slug": "accent-100",
+					"color": "#ede9fe"
+				},
+				{
+					"name": "Accent 300",
+					"slug": "accent-300",
+					"color": "#c4b5fd"
+				},
+				{
+					"name": "Accent 500",
+					"slug": "accent-500",
+					"color": "#8b5cf6"
+				},
+				{
+					"name": "Accent 600",
+					"slug": "accent-600",
+					"color": "#7c3aed"
+				},
+				{
+					"name": "Accent 700",
+					"slug": "accent-700",
+					"color": "#6d28d9"
+				},
+				{
+					"name": "Accent 900",
+					"slug": "accent-900",
+					"color": "#2e1065"
+				},
+				{
+					"name": "Success 100",
+					"slug": "success-100",
+					"color": "#064e3b"
+				},
+				{
+					"name": "Success 500",
+					"slug": "success-500",
+					"color": "#10b981"
+				},
+				{
+					"name": "Success 900",
+					"slug": "success-900",
+					"color": "#d1fae5"
+				},
+				{
+					"name": "Warning 100",
+					"slug": "warning-100",
+					"color": "#fef3c7"
+				},
+				{
+					"name": "Warning 500",
+					"slug": "warning-500",
+					"color": "#f59e0b"
+				},
+				{
+					"name": "Warning 900",
+					"slug": "warning-900",
+					"color": "#78350f"
+				},
+				{
+					"name": "Error 100",
+					"slug": "error-100",
+					"color": "#ffe4e6"
+				},
+				{
+					"name": "Error 500",
+					"slug": "error-500",
+					"color": "#f43f5e"
+				},
+				{
+					"name": "Error 900",
+					"slug": "error-900",
+					"color": "#881337"
+				},
+				{
+					"name": "Transparent",
+					"slug": "transparent",
+					"color": "transparent"
+				},
+				{
+					"name": "Current",
+					"slug": "current",
+					"color": "currentcolor"
+				},
+				{
+					"name": "Inherit",
+					"slug": "inherit",
+					"color": "inherit"
+				}
+			],
+			"gradients": [
+				{
+					"gradient": "linear-gradient(135deg,var(--wp--preset--color--accent-600),var(--wp--preset--color--primary-600))",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"gradient": "linear-gradient(135deg,var(--wp--preset--color--accent-300),var(--wp--preset--color--primary-300))",
+					"name": "Primary Light",
+					"slug": "primary-light"
+				},
+				{
+					"gradient": "linear-gradient(135deg,var(--wp--preset--color--accent-100),var(--wp--preset--color--primary-100))",
+					"name": "Primary Lighter",
+					"slug": "primary-lighter"
+				},
+				{
+					"gradient": "radial-gradient(45% 100% at 45% 100%, var(--wp--preset--color--accent-300) 0%, transparent 100%),radial-gradient(45% 100% at 55% 100%, var(--wp--preset--color--primary-300) 0%, transparent 100%)",
+					"name": "Glow Up",
+					"slug": "glow-up"
+				},
+				{
+					"gradient": "radial-gradient(40% 40% at 40% 40%, var(--wp--preset--color--primary-100) 0%, transparent 100%),radial-gradient(40% 40% at 60% 60%, var(--wp--preset--color--accent-100) 0%, transparent 100%)",
+					"name": "Circle",
+					"slug": "circle"
+				},
+				{
+					"gradient": "radial-gradient(75% 150% at 50% -100%, var(--wp--preset--color--primary-100) 0%, transparent 100%)",
+					"name": "Light Bulb",
+					"slug": "light-bulb"
+				},
+				{
+					"gradient": "conic-gradient(var(--wp--preset--color--neutral-300) 0% 35%, var(--wp--preset--color--neutral-200) 35% 60%, var(--wp--preset--color--primary-500) 60% 100%)",
+					"name": "Pie Chart",
+					"slug": "pie-chart"
+				},
+				{
+					"gradient": "linear-gradient(90deg,var(--wp--preset--color--neutral-50) 0%,transparent 100%)",
+					"name": "Fade Left",
+					"slug": "fade-left"
+				},
+				{
+					"gradient": "linear-gradient(-90deg,var(--wp--preset--color--neutral-50) 0%,transparent 100%)",
+					"name": "Fade Right",
+					"slug": "fade-right"
+				},
+				{
+					"gradient": "var(--wp--preset--gradient--primary)",
+					"name": "Ghost Text",
+					"slug": "ghost-text"
+				},
+				{
+					"gradient": "radial-gradient(250% 250% at 50% 25%, var(--wp--preset--color--neutral-800) 0%, var(--wp--preset--color--accent-500) 100%)",
+					"name": "Heading",
+					"slug": "heading"
+				}
+			]
+		}
+	}
+}
